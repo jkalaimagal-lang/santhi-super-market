@@ -131,8 +131,14 @@ nav a {
     text-align: center;
      padding:2px;
      size: 12 px;
-   
 }
+.offer-right p{
+     font-size:18px;
+     text-decoration: solid;
+     text-align:center;
+     color: green;
+    padding:4px;
+} 
 .offer-right h2{
     font-size: 32px;
     margin-bottom: 10px;
