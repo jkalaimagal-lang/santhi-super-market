@@ -129,6 +129,9 @@ nav a {
 }
 .offer-right {
     text-align: center;
+     padding:2px;
+     size: 12 px;
+   
 }
 .offer-right h2{
     font-size: 32px;
