@@ -135,10 +135,16 @@ nav a {
 .offer-right img{
    display:flex;
    flex-wrap:wrap;
-   gap:15px;
-   justify-content:center;
    width: 480px;
    border-radius: 10px;
+   height:auto;
+}
+@media(max-width:768px){
+   .offer-right img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+   }
 }
 /* BUY 1 GET 1 */
    .offer-text h1{
@@ -148,6 +154,7 @@ nav a {
     color:yellow;
     text-shadow: 3px 3px 8px black;
    }
+ 
 /* FOOTER */
 footer {
     text-align: center;
