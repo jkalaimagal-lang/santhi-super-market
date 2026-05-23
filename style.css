@@ -6,7 +6,7 @@
 }
 body {
  background:#f7f7f7;
- 
+ overflow-x: hidden;
  
 }
 /* HEADER */
@@ -130,17 +130,19 @@ nav a {
     font-size: 32px;
     margin-bottom: 10px;
 }
-.offer-right img{
+.offer-products img{
    display:flex;
    flex-wrap:wrap;
    width: 480px;
    border-radius: 10px;
    height:auto;
+   padding:10px;
 }
 @media(max-width:768px){
-   .offer-right img{
+   .offer-products img{
     width:100%;
     max-width:100%;
+    object-fit:contain;
     height:auto;
    }
 }
