@@ -89,7 +89,7 @@ nav a {
    flex-wrap: wrap;
 }
 .card {
-   backround-color:aqua;
+   backround: aqua;
    padding: 20px;
    text-align: center;
    width: 100%;
