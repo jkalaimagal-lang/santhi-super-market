@@ -7,7 +7,6 @@
 body {
  background:#f7f7f7;
  overflow-x: hidden;
- margin:0;
  
 }
 /* HEADER */
@@ -101,6 +100,7 @@ nav a {
    height: 350px;
    object-fit: cover;
    object-fit: contain;
+
 }
 .card h3{
    font-size: 32px;
@@ -110,6 +110,7 @@ nav a {
 .offer{
     width:100%;
     height:450px;
+    overflow: hidden;
     position: relative;
     display: flex;
     align-items: center;
@@ -131,35 +132,18 @@ nav a {
     font-size: 32px;
     margin-bottom: 10px;
 }
-.offer-products img{
-   display:flex;
-   flex-wrap:wrap;
+.offer-right img{
    width: 480px;
    border-radius: 10px;
-   height:auto;
-   padding:0px;
-   margin:0px;
-   position:relative;
-}
-@media(max-width:768px){
-   .offer-products img{
-    width:100%;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    object-fit:contain;
-    height:auto;
-   }
 }
 /* BUY 1 GET 1 */
-   .offer-products h1{
+   .offer-text h1{
     font-size: 80px;
     font-weight: 700;
-    margin:0;
+    margin:10px 0;
     color:yellow;
     text-shadow: 3px 3px 8px black;
    }
- 
 /* FOOTER */
 footer {
     text-align: center;
