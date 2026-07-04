@@ -3,7 +3,7 @@
 A responsive supermarket website built using HTML, CSS and JavaScript.
 
 ## Live Demo
-https://jkalaimagal-lang.github.io/santhi-super-market/
+https://jkalaimagal-it.github.io/santhi-super-market/
 
 ## Features
 - Responsive Design
